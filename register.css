@@ -92,8 +92,8 @@ input[type="radio"] {
 
 label {
   position: relative;
-  color: #ff6347;
-  border: 1px solid #ff6347;
+  color: #bf6975;
+  border: 1px solid #bf6975;
   border-radius: 5px;
   padding: 2px;
   display: flex;
@@ -106,13 +106,13 @@ label::before {
   height: 10px;
   width: 10px;
 
-  border: 1px solid #ff6347;
+  border: 1px solid #bf6975;
   border-radius: 50%;
   margin-right: 20px;
 }
 
 input[type="radio"]:checked + label {
-  background-color: #ff6347;
+  background-color: #bf6975;
   color: #fff;
 }
 
@@ -120,7 +120,7 @@ input[type="radio"]:checked + label:before {
   height: 10px;
   width: 10px;
   border: 5px solid white;
-  background-color: #ff6347;
+  background-color: #bf6975;
 }
 
 input:invalid {
