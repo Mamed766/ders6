@@ -124,7 +124,11 @@ input[type="radio"]:checked + label:before {
 }
 
 input:invalid {
-  background-color: #fa2c2c;
+  border-color: #fa2c2c;
+}
+
+input:required {
+  border-color: black;
 }
 
 .login__content--form-password {
